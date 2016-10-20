@@ -17,6 +17,7 @@ class ScaleSegue: UIStoryboardSegue {
     override func perform() {
         // 设置目标控制器的转场动画代理
         destination.transitioningDelegate = self
+        
         super.perform()
     }
 }

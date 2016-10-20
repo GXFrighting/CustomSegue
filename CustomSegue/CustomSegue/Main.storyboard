@@ -10,13 +10,13 @@
         <!--Photo View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="PhotoViewController" customModule="text" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="PhotoViewController" customModule="CustomSegue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ccb4bbe4bc443da34848e65d6e590e5d" translatesAutoresizingMaskIntoConstraints="NO" id="cEN-Lb-d7g">
@@ -44,7 +44,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="3FP-VW-5cT">
                     <connections>
-                        <segue destination="0tA-GS-8CT" kind="presentation" customClass="ScaleSegue" customModule="text" customModuleProvider="target" modalPresentationStyle="formSheet" id="yhj-VE-F7Q"/>
+                        <segue destination="0tA-GS-8CT" kind="presentation" customClass="ScaleSegue" customModule="CustomSegue" customModuleProvider="target" modalPresentationStyle="formSheet" id="yhj-VE-F7Q"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -53,13 +53,13 @@
         <!--Photo Detail View Controller-->
         <scene sceneID="RDh-pH-J8u">
             <objects>
-                <viewController id="0tA-GS-8CT" customClass="PhotoDetailViewController" customModule="text" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0tA-GS-8CT" customClass="PhotoDetailViewController" customModule="CustomSegue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="STh-J0-9Ss"/>
                         <viewControllerLayoutGuide type="bottom" id="5wh-rm-HjN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="52M-Yr-jTG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ccb4bbe4bc443da34848e65d6e590e5d" translatesAutoresizingMaskIntoConstraints="NO" id="Eja-cg-ZQP">

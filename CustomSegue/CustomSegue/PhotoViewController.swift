@@ -19,7 +19,6 @@ class PhotoViewController: UIViewController, ViewScaleable {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func unwindToPhotoViewController(segue: UIStoryboardSegue) {
